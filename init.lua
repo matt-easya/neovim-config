@@ -9,7 +9,7 @@ vim.g.have_nerd_font = true
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.mouse = 'a'
-vim.keymap.set('n', '<leader>w', '<cmd>w<CR>')
+vim.keymap.set('n', '<leader>w', '<cmd>w<CR>', { desc = 'Save current buffer' })
 -- Don't show the mode, since it's already in the status line
 vim.o.showmode = false
 
